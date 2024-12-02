@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="17D47" minimumToolsVersion="Automatic">
+    <entity name="Attachment" syncable="YES">
+        <attribute name="attachmentAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachmentDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachmentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attachmentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailableAssaultrifle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailableLmg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailablePistol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailableShotgun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailableSmg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailableSniper" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CAC" syncable="YES">
+        <attribute name="cacLethal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPAtt1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPAtt2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPAtt3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPAtt4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPAtt5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPerk1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPerk1G" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPerk2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPerk2G" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPerk3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPerk3G" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPOptic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacPWeapon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacSAtt1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacSAtt2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacSOptic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacSWeapon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacTactical" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacWC1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacWC2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacWC3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lethalx2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tacticalx2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Lethal" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lethalDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lethalName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lethalUsage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailable" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Map" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dlcName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageBasicData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageBasicPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageDemoData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageDemoPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageDomData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageDomPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSNDData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageSNDPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUplinkData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageUplinkPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDLC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapLoc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Perk" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perkDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perkName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perkTier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="perkUse" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Scorestreak" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scorestreakDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scorestreakName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scorestreakPoints" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Specialist" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageAbilityData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageAbilityPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePWData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePWPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistAbilityDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistAbilityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistCallsign" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistPWDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialistPWName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tactical" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lvlAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tacticalDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tacticalName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tacticalUsage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Weapon" syncable="YES">
+        <attribute name="adsTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cons" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="damageClose" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="damageFar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fireMode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageSqData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="lvlAvailable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="magazineSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pros" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reloadTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rof" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shotsToKill" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalAmmo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weaponClass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weaponDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weaponName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weaponType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Attachment" positionX="-407" positionY="60" width="128" height="255"/>
+        <element name="CAC" positionX="-189" positionY="9" width="128" height="420"/>
+        <element name="Lethal" positionX="-45" positionY="36" width="128" height="165"/>
+        <element name="Map" positionX="-198" positionY="0" width="128" height="330"/>
+        <element name="Perk" positionX="-225" positionY="360" width="128" height="180"/>
+        <element name="Scorestreak" positionX="106" positionY="36" width="128" height="165"/>
+        <element name="Specialist" positionX="286" positionY="27" width="128" height="285"/>
+        <element name="Tactical" positionX="-29" positionY="-153" width="128" height="165"/>
+        <element name="Weapon" positionX="-207" positionY="-63" width="128" height="360"/>
+    </elements>
+</model>
